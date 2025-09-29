@@ -1,0 +1,20 @@
+# Tự động xử lý định dạng dòng
+* text=auto
+
+# Luôn dùng LF cho các file code và text
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.scss text eol=lf
+*.txt  text eol=lf
+*.md   text eol=lf
+*.php  text eol=lf
+
+# Giữ nguyên định dạng cho file nhị phân
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
